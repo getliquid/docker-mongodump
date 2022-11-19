@@ -59,7 +59,7 @@ Docker Compose example - run container with cron job (once a day at 1am), save b
         image: "mongo:4.2"
 
       mongo-backup:
-        image: "istepanov/mongodump:4.2"
+        image: "getliquid/docker-mongodump:latest"
         volumes:
           - mongo-backup:/backup
         environment:
