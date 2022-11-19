@@ -25,7 +25,7 @@ jobs:
     - name: Build and push image
       uses: docker/build-push-action@v3
       with:
-        context: ./integration
+        context: ./
         push: true
           # TODO: We should not blindly use 'latest' here but a proper version.
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-mongodump:latest
