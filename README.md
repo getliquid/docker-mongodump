@@ -1,3 +1,5 @@
+Fork has a fix in the `backup.sh` for AWS deploys
+
 istepanov/mongodump
 ===================
 
