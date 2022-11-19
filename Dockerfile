@@ -1,5 +1,4 @@
-FROM mongo:4.2
-MAINTAINER Ilya Stepanov <dev@ilyastepanov.com>
+FROM mongo:latest
 
 RUN apt-get update && \
     apt-get install -y cron python3 python3-pip && \
